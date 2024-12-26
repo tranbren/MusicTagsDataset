@@ -60,14 +60,12 @@ This dataset is more compact than the 12M dataset but still provides a wealth of
 
 ---
 
-# Features
-
+## Features
 - **Comprehensive coverage**: The dataset spans multiple decades, from the 2000s to the present day, ensuring diversity in genres and artists.
 - **Multi-source tags**: Each song entry contains tags extracted from both Last.fm and Genius, offering a broad range of insights into each track's characteristics.
 - **Easy to use**: The dataset is structured in a way that makes it easy to load and integrate into data analysis, machine learning models, or other applications.
 
 ## How to Use
-
 1. **Download the Dataset**:
    - You can download the dataset directly from the repository. The data is available in formats such as `.csv`, `.json`, or `.txt` for easy integration into your project.
 
@@ -85,14 +83,7 @@ This dataset is more compact than the 12M dataset but still provides a wealth of
 
 ---
 
-## Explore the Data
-
-The dataset contains columns such as `Artist`, `SongTitle`, `Year`, `Last.fm_Tags`, and `Genius_Tags`. You can filter, analyze, and visualize this data for your use case.
-
----
-
 ## License
-
 This dataset is free to use for educational, research, and non-commercial purposes. Please give credit to the sources when using or sharing the data.
 
 - **Last.fm**: [Last.fm API](https://www.last.fm/api)
@@ -101,11 +92,9 @@ This dataset is free to use for educational, research, and non-commercial purpos
 ---
 
 ## Contribution
-
 If you want to contribute to this repository, feel free to fork the project and submit a pull request with any updates or improvements. All contributions are welcome!
 
 ---
 
 ## Disclaimer
-
 This dataset was generated using publicly available APIs and web scraping techniques. While the data was collected in good faith, we do not guarantee its completeness or accuracy. Please use it responsibly.
