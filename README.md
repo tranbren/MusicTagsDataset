@@ -55,8 +55,8 @@ This dataset is more compact than the 12M dataset but still provides a wealth of
 ---
 
 ## Sources:
-- **Last.fm API**: Used to fetch song and artist data, including tags based on user-generated content and listening behavior.
-- **Genius Web Scraping**: Scraped Genius.com for additional metadata and tags, including lyrics-based tags, mood descriptors, and genre-related information.
+- **[Last.fm API](https://www.last.fm/api)**: Used to fetch song and artist data, including tags based on user-generated content and listening behavior.
+- **[Genius Web Scraping](https://genius.com/developers)**: Scraped Genius.com for additional metadata and tags, including lyrics-based tags, mood descriptors, and genre-related information.
 
 ---
 
@@ -64,22 +64,6 @@ This dataset is more compact than the 12M dataset but still provides a wealth of
 - **Comprehensive coverage**: The dataset spans multiple decades, from the 2000s to the present day, ensuring diversity in genres and artists.
 - **Multi-source tags**: Each song entry contains tags extracted from both Last.fm and Genius, offering a broad range of insights into each track's characteristics.
 - **Easy to use**: The dataset is structured in a way that makes it easy to load and integrate into data analysis, machine learning models, or other applications.
-
-## How to Use
-1. **Download the Dataset**:
-   - You can download the dataset directly from the repository. The data is available in formats such as `.csv`, `.json`, or `.txt` for easy integration into your project.
-
-2. **Load the Data**:
-   - The dataset can be loaded into any data processing tool or software such as Python (using `pandas`), R, or even Excel. Example code to load the data in Python:
-
-   ```python
-   import pandas as pd
-
-   # Load dataset
-   dataset = pd.read_csv('path/to/dataset.csv')
-
-   # Check the first few rows
-   print(dataset.head())
 
 ---
 
