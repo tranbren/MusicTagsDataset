@@ -2,7 +2,7 @@
 
 This repository contains a comprehensive collection of song data, including tags and metadata, for tracks spanning from the 2000s to the present day. The tags were extracted using the **Last.fm API** and **Genius Web Scraping**, making this dataset a valuable resource for music analysis, recommendation systems, or any project related to music and its metadata.
 
-## Dataset Overview
+## Overview
 
 The dataset includes the following:
 
@@ -10,8 +10,7 @@ The dataset includes the following:
 - **Tags**: Each song is associated with relevant tags that were extracted from Last.fm and Genius. These tags provide insight into genres, moods, themes, and other characteristics of the tracks.
 - **Artists**: Each entry includes the corresponding artist for the track.
 
-### Datasets Information
----
+## Datasets Information
 ### 1. **Genius Metadata**  
 These files contain metadata related to **Genius-specific tags**. Genius tags are often based on lyrics and themes, such as mood, genre, and other descriptive tags.
 
