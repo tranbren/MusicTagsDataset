@@ -2,15 +2,7 @@
 
 This repository contains a comprehensive collection of song data, including tags and metadata, for tracks spanning from the 2000s to the present day. The tags were extracted using the **Last.fm API** and **Genius Web Scraping**, making this dataset a valuable resource for music analysis, recommendation systems, or any project related to music and its metadata.
 
-## Overview
-
-The dataset includes the following:
-
-- **Song Entries**: A variety of songs from the 2000s to today, covering multiple genres and artists.
-- **Tags**: Each song is associated with relevant tags that were extracted from Last.fm and Genius. These tags provide insight into genres, moods, themes, and other characteristics of the tracks.
-- **Artists**: Each entry includes the corresponding artist for the track.
-
-## Datasets Information
+## Datasets Overview
 ### 1. **Genius Metadata**  
 These files contain metadata related to **Genius-specific tags**. Genius tags are often based on lyrics and themes, such as mood, genre, and other descriptive tags.
 
@@ -39,22 +31,36 @@ These files contain songs for which both **Last.fm** and **Genius** tags have be
 
 ---
 
-### Summary of Datasets:
-- **Genius Metadata**: Contains tags extracted from **Genius.com**, including mood, themes, and lyrical elements.
-- **Last.fm Metadata**: Contains tags based on **Last.fm** user-generated content, such as listening habits and genre preferences.
-- **Merged Data (Last.fm + Genius)**: Contains songs with **both** Last.fm and Genius tags, useful for songs with comprehensive tag coverage.
+## Song Datasets Used
+This repository utilizes the following song datasets, which are sourced from Kaggle. These datasets provide metadata about songs, including attributes like artist, song title, genre, and other audio features. Below are the details of each dataset:
 
-These datasets can be merged and analyzed to gain a deeper understanding of songs through multiple sources of metadata, which can be used for music analysis, recommendation systems, and other research purposes.
+### 1. **[Spotify 12M Songs](https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs)**  
+This dataset contains data for 12 million songs on Spotify. It includes various attributes related to the tracks, such as:
+- **Artist**: The artist of the song.
+- **Song Title**: The name of the track.
+- **Genre**: The genre(s) associated with the track.
+- **Audio Features**: Includes attributes like danceability, energy, key, loudness, and more.
+
+This large-scale dataset is ideal for analyzing song features, building recommendation systems, and conducting audio analysis.
+
+### 2. **[Spotify 1 Million Tracks](https://www.kaggle.com/datasets/amitanshjoshi/spotify-1million-tracks)**  
+This dataset contains 1 million tracks from Spotify. Key attributes include:
+- **Artist**: The name of the artist.
+- **Song Title**: The title of the song.
+- **Audio Features**: This includes attributes like acousticness, instrumentalness, tempo, and more.
+- **Popularity**: A score indicating the popularity of the song based on Spotify’s data.
+
+This dataset is more compact than the 12M dataset but still provides a wealth of information for music data analysis and feature engineering.
 
 ---
 
-### Sources:
+## Sources:
 - **Last.fm API**: Used to fetch song and artist data, including tags based on user-generated content and listening behavior.
 - **Genius Web Scraping**: Scraped Genius.com for additional metadata and tags, including lyrics-based tags, mood descriptors, and genre-related information.
 
 ---
 
-## Features
+# Features
 
 - **Comprehensive coverage**: The dataset spans multiple decades, from the 2000s to the present day, ensuring diversity in genres and artists.
 - **Multi-source tags**: Each song entry contains tags extracted from both Last.fm and Genius, offering a broad range of insights into each track's characteristics.
