@@ -10,7 +10,7 @@ The dataset includes the following:
 - **Tags**: Each song is associated with relevant tags that were extracted from Last.fm and Genius. These tags provide insight into genres, moods, themes, and other characteristics of the tracks.
 - **Artists**: Each entry includes the corresponding artist for the track.
 
-## Datasets Information
+### Datasets Information
 ### 1. **Genius Metadata**  
 These files contain metadata related to **Genius-specific tags**. Genius tags are often based on lyrics and themes, such as mood, genre, and other descriptive tags.
 
@@ -46,9 +46,13 @@ These files contain songs for which both **Last.fm** and **Genius** tags have be
 
 These datasets can be merged and analyzed to gain a deeper understanding of songs through multiple sources of metadata, which can be used for music analysis, recommendation systems, and other research purposes.
 
+---
+
 ### Sources:
 - **Last.fm API**: Used to fetch song and artist data, including tags based on user-generated content and listening behavior.
 - **Genius Web Scraping**: Scraped Genius.com for additional metadata and tags, including lyrics-based tags, mood descriptors, and genre-related information.
+
+---
 
 ## Features
 
@@ -73,9 +77,13 @@ These datasets can be merged and analyzed to gain a deeper understanding of song
    # Check the first few rows
    print(dataset.head())
 
+---
+
 ## Explore the Data
 
 The dataset contains columns such as `Artist`, `SongTitle`, `Year`, `Last.fm_Tags`, and `Genius_Tags`. You can filter, analyze, and visualize this data for your use case.
+
+---
 
 ## License
 
@@ -84,9 +92,13 @@ This dataset is free to use for educational, research, and non-commercial purpos
 - **Last.fm**: [Last.fm API](https://www.last.fm/api)
 - **Genius**: [Genius](https://genius.com/developers)
 
+---
+
 ## Contribution
 
 If you want to contribute to this repository, feel free to fork the project and submit a pull request with any updates or improvements. All contributions are welcome!
+
+---
 
 ## Disclaimer
 
