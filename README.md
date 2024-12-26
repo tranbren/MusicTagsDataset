@@ -10,6 +10,42 @@ The dataset includes the following:
 - **Tags**: Each song is associated with relevant tags that were extracted from Last.fm and Genius. These tags provide insight into genres, moods, themes, and other characteristics of the tracks.
 - **Artists**: Each entry includes the corresponding artist for the track.
 
+## Datasets Information
+### 1. **Genius Metadata**  
+These files contain metadata related to **Genius-specific tags**. Genius tags are often based on lyrics and themes, such as mood, genre, and other descriptive tags.
+
+- `genius_metadata.zip`  
+  Contains the first part of the Genius tags dataset for various songs.
+- `genius_metadata_2.zip`  
+  Contains the second part of the Genius tags dataset, complementing `genius_metadata.zip`.
+
+### 2. **Last.fm Metadata**  
+These files contain **Last.fm-specific tags**. Last.fm tags are user-generated and are based on listening behavior, genre, and other user-generated content.
+
+- `lastfm_metadata.zip`  
+  Contains the first part of the Last.fm tags dataset for various songs.
+- `lastfm_metadata_2.zip`  
+  Contains the second part of the Last.fm tags dataset, complementing `lastfm_metadata.zip`.
+- `lastfm_metadata_3.zip`  
+  Contains the third part of the Last.fm tags dataset, further extending the metadata from the previous two files.
+
+### 3. **Merged Last.fm and Genius Metadata**  
+These files contain songs for which both **Last.fm** and **Genius** tags have been extracted. This group includes entries that have data from both sources, making it easier to analyze songs with both sets of tags.
+
+- `lastfm_genius_metadata.zip`  
+  Contains the first part of the dataset where both Last.fm and Genius tags are available for the same songs.
+- `lastfm_genius_metadata_2.zip`  
+  Contains the second part of the dataset, complementing `lastfm_genius_metadata.zip` with additional songs that have both Last.fm and Genius tags.
+
+---
+
+### Summary of Datasets:
+- **Genius Metadata**: Contains tags extracted from **Genius.com**, including mood, themes, and lyrical elements.
+- **Last.fm Metadata**: Contains tags based on **Last.fm** user-generated content, such as listening habits and genre preferences.
+- **Merged Data (Last.fm + Genius)**: Contains songs with **both** Last.fm and Genius tags, useful for songs with comprehensive tag coverage.
+
+These datasets can be merged and analyzed to gain a deeper understanding of songs through multiple sources of metadata, which can be used for music analysis, recommendation systems, and other research purposes.
+
 ### Sources:
 - **Last.fm API**: Used to fetch song and artist data, including tags based on user-generated content and listening behavior.
 - **Genius Web Scraping**: Scraped Genius.com for additional metadata and tags, including lyrics-based tags, mood descriptors, and genre-related information.
