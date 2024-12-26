@@ -72,6 +72,8 @@ This dataset is free to use for educational, research, and non-commercial purpos
 
 - **Last.fm**: [Last.fm API](https://www.last.fm/api)
 - **Genius**: [Genius](https://genius.com/developers)
+- **Spotify 12M Songs Dataset**: [Spotify 12M Songs](https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs)
+- **Spotify 1 Million Tracks Dataset**: [Spotify 1 Million Tracks](https://www.kaggle.com/datasets/amitanshjoshi/spotify-1million-tracks)
 
 ---
 
